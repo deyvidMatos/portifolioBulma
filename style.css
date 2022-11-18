@@ -1,0 +1,35 @@
+.section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.tabelas{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    min-width: 300px;
+    height: 450px;
+}
+table tbody tr td{
+    display: flex;
+    flex-direction: row;
+}
+figure img{
+    padding: 20px;
+}
+.tbody tr td{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:426px) {
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        height: 500px;
+    }
+
+}
